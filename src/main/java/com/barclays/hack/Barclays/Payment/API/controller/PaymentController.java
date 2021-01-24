@@ -36,7 +36,7 @@ public class PaymentController {
         order.setCurrency("INR");
         order.setAmount(request.getAmount());
         order.setDescription(request.getDescription());
-        order.setRedirectUrl("http://www.google.com");
+        order.setRedirectUrl("https://barclays-bookstore.web.app/home");
         order.setTransactionId(uuid.toString());
 
         PaymentOrderResponse paymentOrderResponse = null;
